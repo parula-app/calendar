@@ -7,7 +7,7 @@ import { assert } from 'pia/util/util.js';
 
 export default class Calendar extends JSONApp {
   constructor() {
-    super("calendar");
+    super("calendar", ".");
     this._db = [];
   }
 

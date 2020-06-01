@@ -1160,7 +1160,7 @@ pcm-convert@^1.6.5:
 
 "pia-app-http@https://github.com/benbucksch/pia-http-app":
   version "0.1.0"
-  resolved "https://github.com/benbucksch/pia-http-app#773023ced1dc078de628d6bc555cad3ce7685d9b"
+  resolved "https://github.com/benbucksch/pia-http-app#4b2584227609c8c79ff4f6e5c6d33a830e0bad8f"
   dependencies:
     crypto-random-string "^3.2.0"
     express "^4.17.1"
