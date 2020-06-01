@@ -1,0 +1,81 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "calendar",
+            "intents": [
+                {
+                    "name": "UpcomingEvents",
+                    "samples": [
+                      "(Tell me|) what is on (my|the) calendar",
+                      "(Tell me|) my (upcoming|) (appointments|events)",
+                      "Which (appointments|events) do I have",
+                      "(Tell me|What are|) my (appointments|events) this (week|month)",
+                      "My calendar"
+                    ]
+                },
+                {
+                    "name": "NextEvent",
+                    "samples": [
+                      "(Tell me|) (what is|) my next appointment"
+                    ]
+                },
+                {
+                    "name": "EventsAt",
+                    "samples": [
+                      "(Tell me|) (my|) (appointments|events) (on|for) {Date}",
+                      "(Which|What) (appointments|events) do I have (on|) {Date}?"
+                    ],
+                    "slots": [
+                        {
+                            "name": "Date",
+                            "type": "Pia.DateTime"
+                        }
+                    ]
+                },
+                {
+                    "name": "Add",
+                    "samples": [
+                        "Schedule {Summary} in {Time}"
+                    ],
+                    "slots": [
+                        {
+                            "name": "Summary",
+                            "type": "Pia.Text"
+                        },
+                        {
+                            "name": "Time",
+                            "type": "Pia.DateTime"
+                        }
+                    ]
+                },
+                {
+                    "name": "Remove",
+                    "samples": [
+                        "Delete {Summary} on {Time} from (my|the) calendar"
+                    ],
+                    "slots": [
+                        {
+                            "name": "Summary",
+                            "type": "Pia.Text"
+                        },
+                        {
+                            "name": "Time",
+                            "type": "Pia.DateTime"
+                        }
+                    ]
+                }
+            ],
+            "responses": {
+              "event-short": "In %startTimeRelative%: %summary%",
+              "next-is": "Your next appointment is:",
+              "next-are": "Your next appointments are:",
+              "events-at-time": "Your events %time% are:",
+              "zero": "You have no appointments scheduled",
+              "zero-at-time": "You have no appointments scheduled for %time%",
+              "not-configured": "No calendar configured",
+              "add-done": "I added %summary% on %time% to your calendar",
+              "remove-done": "I cancelled %summary% on %time% from your calendar"
+            }
+        }
+    }
+}

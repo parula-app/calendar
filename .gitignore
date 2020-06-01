@@ -1,0 +1,9 @@
+*~
+*.sh
+node_modules/
+data/
+config.json
+project
+client/web-client/yarn.lock
+db_*
+
