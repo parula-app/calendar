@@ -1,0 +1,8 @@
+{
+  "calendar": {
+    "serverURL": "The CalDAV URL. For NextCloud/ownCloud, log in with a browser, go to the [Calendar] app, [Settings] at the bottom left, and copy the [Copy the primary CalDAV URL]",
+    "username": "Your username on the CalDAV/NextCloud/ownCloud server",
+    "password": "Your password"
+  },
+  "coreURL": "HTTP URL of the Pia core server for application registration"
+}

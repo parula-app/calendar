@@ -1,0 +1,8 @@
+{
+  "calendar": {
+    "serverURL": "https://nextcloud.example.com/remote.php/dav",
+    "username": "fred",
+    "password": "wilma"
+  },
+  "coreURL": "http://localhost:12777"
+}

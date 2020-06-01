@@ -1,0 +1,8 @@
+{
+  "calendar": {
+    "serverURL": "http://localhost/remote.php/dav",
+    "username": null,
+    "password": null
+  },
+  "coreURL": "http://localhost:12777"
+}
