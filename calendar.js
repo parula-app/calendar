@@ -1,9 +1,9 @@
 import dav from 'dav';
 import { parseICS } from './ics.js';
 import Sugar from 'sugar-date';
-import { JSONApp } from '../../baseapp/JSONApp.js';
-import { getConfig } from '../../util/config.js';
-import { assert } from '../../util/util.js';
+import { JSONApp } from 'pia/baseapp/JSONApp.js';
+import { getConfig } from 'pia/util/config.js';
+import { assert } from 'pia/util/util.js';
 
 export default class Calendar extends JSONApp {
   constructor() {

@@ -14,7 +14,7 @@
         "dav": "^1.8.0",
         "ical": "^0.8.0",
         "iso-639-1": "^2.1.3",
-        "pia-app-http": "../server/"
+        "pia-app-http": "https://github.com/benbucksch/pia-http-app"
     },
     "devDependencies": {},
     "type": "module",

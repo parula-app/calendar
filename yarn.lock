@@ -1158,28 +1158,20 @@ pcm-convert@^1.6.5:
     is-buffer "^1.1.5"
     object-assign "^4.1.1"
 
-pia-app-http@../server:
+"pia-app-http@https://github.com/benbucksch/pia-http-app":
   version "0.1.0"
+  resolved "https://github.com/benbucksch/pia-http-app#773023ced1dc078de628d6bc555cad3ce7685d9b"
   dependencies:
     crypto-random-string "^3.2.0"
     express "^4.17.1"
-    pia "../../pia/"
+    pia "https://github.com/benbucksch/pia"
     r2 "^2.0.1"
     ws "^7.2.3"
     ws-wrapper "^2.0.2"
 
-pia-app-http@../server/:
+"pia@https://github.com/benbucksch/pia":
   version "0.1.0"
-  dependencies:
-    crypto-random-string "^3.2.0"
-    express "^4.17.1"
-    pia "../../pia/"
-    r2 "^2.0.1"
-    ws "^7.2.3"
-    ws-wrapper "^2.0.2"
-
-pia@../../pia/:
-  version "0.1.0"
+  resolved "https://github.com/benbucksch/pia#c64b6485072446893dfa293bfc38ab5ec5ced7fb"
   dependencies:
     "@nano-sql/core" "^2.3.7"
     "@nano-sql/plugin-fuzzy-search" "^2.0.2"
