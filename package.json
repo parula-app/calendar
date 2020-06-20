@@ -8,13 +8,13 @@
     "homepage": "https://pia.im",
     "repository": {
         "type": "git",
-        "url": "git://github.com/benbucksch/pia.git"
+        "url": "https://github.com/pia-im/pia-calendar"
     },
     "dependencies": {
         "dav": "^1.8.0",
         "ical": "^0.8.0",
         "iso-639-1": "^2.1.3",
-        "pia-app-http": "https://github.com/benbucksch/pia-http-app"
+        "pia-ws-app": "https://github.com/pia-im/pia-ws-app"
     },
     "devDependencies": {},
     "type": "module",

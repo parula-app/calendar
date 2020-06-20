@@ -1,10 +1,10 @@
 import Calendar from './calendar.js';
-import HTTPAppServer from 'pia-app-http';
+import WSAppServer from 'pia-ws-app';
 
 (async () => {
   try {
     let apps = [ new Calendar() ];
-    await new HTTPAppServer(apps).start();
+    await new WSAppServer(apps).start();
   } catch (ex) {
     console.error(ex);
   }

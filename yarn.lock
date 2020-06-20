@@ -327,13 +327,6 @@ create-temp-file@^1.0.0:
   dependencies:
     tempfile "^1.1.1"
 
-crypto-random-string@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-3.2.0.tgz#d513ef0c2ac6ff7cad5769de585d9bf2ad5a2b4d"
-  integrity sha512-8vPu5bsKaq2uKRy3OL7h1Oo7RayAWB8sYexLKAqvCXVib8SxgbmoF1IN4QMKjBv8uI8mp5gPPMbiRah25GMrVQ==
-  dependencies:
-    type-fest "^0.8.1"
-
 dav@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/dav/-/dav-1.8.0.tgz#2a2269d09a17df6ea73d8b63b17ce3d7e59b899c"
@@ -1158,16 +1151,12 @@ pcm-convert@^1.6.5:
     is-buffer "^1.1.5"
     object-assign "^4.1.1"
 
-"pia-app-http@https://github.com/benbucksch/pia-http-app":
+"pia-ws-app@https://github.com/pia-im/pia-ws-app":
   version "0.1.0"
-  resolved "https://github.com/benbucksch/pia-http-app#4b2584227609c8c79ff4f6e5c6d33a830e0bad8f"
+  resolved "https://github.com/pia-im/pia-ws-app#164f97363e19c060e8a33fc88aa92ca1385862d8"
   dependencies:
-    crypto-random-string "^3.2.0"
-    express "^4.17.1"
     pia "https://github.com/benbucksch/pia"
-    r2 "^2.0.1"
     ws "^7.2.3"
-    ws-wrapper "^2.0.2"
 
 "pia@https://github.com/benbucksch/pia":
   version "0.1.0"
@@ -1587,11 +1576,6 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
-
-type-fest@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
-  integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
