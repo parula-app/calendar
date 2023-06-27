@@ -4,5 +4,5 @@
     "username": "Your username on the CalDAV/NextCloud/ownCloud server",
     "password": "Your password"
   },
-  "coreURL": "HTTP URL of the Pia core server for application registration"
+  "coreURL": "HTTP URL of the Parula core server for application registration"
 }

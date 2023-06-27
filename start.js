@@ -1,5 +1,5 @@
 import Calendar from './calendar.js';
-import WSAppServer from 'pia-ws-app';
+import WSAppServer from 'parula-ws-app';
 
 (async () => {
   try {
